@@ -318,7 +318,9 @@ export default class CountryPicker extends Component {
           onPress={() => this.setState({ modalVisible: true })}
           activeOpacity={0.7}
         >
-          <View style={{flexDirection: 'row', borderBottomColor:'#e0e0e0', borderBottomWidth:1, alignItems:'center'}}>
+          <View style={{flexDirection: 'row', borderBottomColor:'#e0e0e0', borderBottomWidth:1, alignItems:'center', 
+                              height: (Dimensions.get('window').height)/17,
+}}>
 
           {this.props.children ? (
             this.props.children
