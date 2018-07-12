@@ -319,7 +319,7 @@ export default class CountryPicker extends Component {
           activeOpacity={0.7}
         >
           <View style={{flexDirection: 'row', borderBottomColor:'#e0e0e0', borderBottomWidth:1, alignItems:'center', 
-                              height: (Dimensions.get('window').height)/15,
+                              height: (Dimensions.get('window').height)/17,
 }}>
 
           {this.props.children ? (
